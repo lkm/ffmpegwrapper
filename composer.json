@@ -1,0 +1,22 @@
+{
+    "name": "lkm/ffmpegwrapper",
+    "description": "A wrapper for ffmpeg and ffprobe",
+    "keywords": [
+        "media",
+        "ffmpeg"
+    ],
+    "homepage": "https://github.com/lkm/ffmpegwrapper",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FFmpegWrapper\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "symfony/process": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.2"
+    }
+}
